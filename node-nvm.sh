@@ -8,8 +8,6 @@ export NVM_DIR="$HOME/.nvm"
 
 nvm -v
 
-read -p "enter node version": nodeV
-
 nvm install ${nodeV}
 
 nvm ls
